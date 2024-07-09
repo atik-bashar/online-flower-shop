@@ -144,3 +144,202 @@
     padding-left: 50px;
     padding-top: 10px;
 }
+
+/* sale section starts here */
+
+.sale-container{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sale-section-text{
+    height: 620px;
+    width: 50%;
+}
+.sale-section-text h5{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    width: 537px;
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 48px;
+}
+
+.sale-section-text h5 .Off{
+    color: rgb(229, 84, 115);
+}
+
+.sale-section-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    margin-top: 24px;
+    font-weight: 400;
+}
+
+.btn2{
+    width: 155px;
+    height: 64px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+}
+
+.btn2 #Sign{
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    width: 69px;
+    height: 24px;
+}
+
+sale-section-image{
+        height: 620px;
+        width: 50%;
+}
+
+.img{
+    width: 318px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-right: 500px;
+}
+
+/* text section styles */
+
+.text-section{
+    width: 594px;
+    height: 132px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-section h5{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-section p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* end section contain styles starts here */
+
+.background-container{
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.background-text h6{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.background-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.background-form{
+    margin: 0 auto ;
+    margin-top: 50px;
+}
+
+.background-form input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.background-form button{
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+}
+
+#sub{
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* footer section styles starts here */
+
+.footer-container{
+    position: absolute;
+    width: 1922px;
+    height: 449px;
+    background-color: rgb(17, 16, 16);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.footer-section-text h1{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-section-text p{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#flower{
+    color: rgb(229, 84, 115);
+}
+
+.footer-section-text .foot{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}

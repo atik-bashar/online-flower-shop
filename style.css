@@ -68,7 +68,6 @@
     width: 594px;
     height: 132px;
     margin: 0 auto;
-    margin-bottom: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -91,6 +90,92 @@
     font-size: 18px;
     font-weight: 400;
     height: 60px; 
+}
+
+/* features images styles start here */
+
+.features-images-container{
+    max-width: 1440px;
+    max-height: 538px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 120px;
+}
+
+.image-section-first{
+    width: 32%;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image-section-first img{
+    margin: 0 auto;
+    align-items: center;
+    width: 370px;
+    height: 372px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.image-section-first p{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.image-section-second{
+    width: 32%;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-section-second img{
+    margin: 0 auto;
+    align-items: center;
+    width: 370px;
+    height: 372px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.image-section-second p{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.image-section-third{
+    width: 32%;
+    /* border: 2px solid yellow; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-section-third img{
+    margin: 0 auto;
+    align-items: center;
+    width: 370px;
+    height: 372px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.image-section-third p{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
 }
 
 /* delivery section starts here */
@@ -245,6 +330,25 @@ sale-section-image{
     font-weight: 400;
 }
 
+/* images section styles here */
+
+.images-container{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    max-height: 396px;
+    align-items: center;
+}
+
+.img4, .img1, .img2, .img3{
+    border-style: dashed;
+    border-collapse: collapse;
+    border-color: rgba(39, 39, 39, 0.2);
+    width: 342px;
+}
+
 /* end section contain styles starts here */
 
 .background-container{
@@ -322,7 +426,7 @@ sale-section-image{
     font-family: Lato;
     font-size: 48px;
     font-weight: 800;
-    padding-top: 80px;
+    padding-top: 40px;
     color: rgb(255, 255, 255);
 }
 

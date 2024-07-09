@@ -1,0 +1,146 @@
+
+/* header section starts here */
+
+.header-container{
+    width: 1920px;
+    height: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.1);
+}
+
+.header-first-section{
+    width: 708px;
+    height: 506px;
+    margin: 0 auto;
+}
+
+.header-first-section h5{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.header-first-section p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn1{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    width: 177px;
+    height: 64px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#shop{
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-image-section{
+    width: 635px;
+    height: 800px;
+    background: url(./images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+/* features content starts here */
+
+.features-text{
+    width: 594px;
+    height: 132px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.features-text h5{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    height: 48px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.features-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    height: 60px; 
+}
+
+/* delivery section starts here */
+
+.delivery-section-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.delivery-section-first h5{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.delivery-section-first img{
+    width: 88px;
+    height: 88px;
+    align-items: center;
+    padding-left: 150px;
+}
+.delivery-section-second h4{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.delivery-section-second img{
+    width: 87.97px;
+    height: 88px;
+    padding-left: 100px;
+}
+.delivery-section-third h6{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.delivery-section-third img{
+    width: 88px;
+    height: 88px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
